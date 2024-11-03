@@ -1256,3 +1256,16 @@ select{
 width: 100%;
 height: 475px !important;
 }
+
+.catalog_container .owl-prev ,.catalog_container .owl-next {
+    top: 462px;
+}
+
+.catalog_container .owl-prev{
+    left: 20px;
+    border-radius: 0px 4px 0px 0px;
+}
+.catalog_container .owl-next{
+    right: 20px;
+    border-radius: 4px 0px 0px 0px;
+}
