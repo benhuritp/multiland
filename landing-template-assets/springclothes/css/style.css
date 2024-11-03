@@ -334,8 +334,8 @@ h2 {
 .offer_section .title_block h1,
 .offer_section .title_block h2 {
     margin: 0 0 0 5px;
-    font-size: 50px;
-    line-height: 50px;
+    font-size: 57px;
+    line-height: 57px;
     letter-spacing: 4px;
     color: var(--assentColor);
 }
