@@ -334,8 +334,8 @@ h2 {
 .offer_section .title_block h1,
 .offer_section .title_block h2 {
     margin: 0 0 0 5px;
-    font-size: 57px;
-    line-height: 57px;
+    font-size: 22px;
+    line-height: 35px;
     letter-spacing: 4px;
     color: var(--assentColor);
 }
@@ -415,7 +415,7 @@ h2 {
     bottom: 60px;
     color: #fff;
     border: 3px solid #fff;
-    background: #ff8a4268;
+    background: #ff8a42b4;
 }
 
 .offer_section .info .discount b,
@@ -466,6 +466,8 @@ h2 {
 .offer_section .price_block .price_item.new {
     background: var(--assentColor);
     color: #fff;
+    
+    width: 100%;
 }
 
 .offer_section .price_block .text {
@@ -680,6 +682,7 @@ h2 {
     left: 0px;
     transform: none !important;
     bottom: -15px !important;
+    top: auto;
 }
 
 .reviews3_section .gallery .owl-next {
@@ -1252,7 +1255,7 @@ select{
     position: relative;
 }
 
-.catalog_container img{
+.catalog_container > .gallery.owl-carousel img{
 width: 100%;
 height: 475px !important;
 }
