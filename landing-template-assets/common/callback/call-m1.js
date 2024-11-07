@@ -27,7 +27,7 @@ $(function(){
 
     $('#call-but-m1').click(function() {
            var form_selector = $("#m1-form");
-           M1.modalShow(form_selector);
+        //    M1.modalShow(form_selector);
            $("#overlay-popup-m1").show();
            $("input[name=from_recall_button]", form_selector).val(1);
     });
