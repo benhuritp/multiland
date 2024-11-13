@@ -329,6 +329,8 @@ h2 {
     font-weight: 700;
     text-transform: uppercase;
     text-align: center;
+    background: var(--assentColor);
+  
 }
 
 .offer_section .title_block h1,
@@ -337,7 +339,8 @@ h2 {
     font-size: 22px;
     line-height: 35px;
     letter-spacing: 4px;
-    color: var(--assentColor);
+    /* color: var(--assentColor); */
+    color: white !important;
 }
 
 .offer_section .title_block p {
